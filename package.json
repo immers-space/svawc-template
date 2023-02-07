@@ -13,6 +13,17 @@
     "dev": "rollup -c -w",
     "start": "sirv public --no-clear"
   },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/immers-space/svawc-template.git"
+  },
+  "keywords": [
+    "svawc",
+    "aframe",
+    "svelte"
+  ],
+  "author": "William Murphy",
+  "license": "MIT",
   "devDependencies": {
     "@rollup/plugin-commonjs": "^17.0.0",
     "@rollup/plugin-node-resolve": "^11.0.0",
