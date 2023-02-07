@@ -1,0 +1,28 @@
+<!--
+	This file is just for testing against wth npm run dev, not included in built bundle
+-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset='utf-8'>
+	<meta name='viewport' content='width=device-width,initial-scale=1'>
+
+	<title>Svelte app</title>
+
+	<link rel='icon' type='image/png' href='/favicon.png'>
+	<link rel='stylesheet' href='/global.css'>
+	<link rel='stylesheet' href='/build/bundle.css'>
+	<script src="https://aframe.io/releases/1.4.1/aframe.js"></script>
+	<script src="https://unpkg.com/aframe-environment-component@1.3.2/dist/aframe-environment-component.min.js"></script>
+	<script src='/build/bundle.js'></script>
+</head>
+
+<body>
+
+	<a-scene environment="preset: default; shadow: true">
+		<a-person position="0 0 -3"></a-person>
+		<a-person position="1 0 -3" skin-color="peachpuff" shirt-color="grey" pants-color="darkgrey"></a-person>
+		<a-person position="-1 0 -3" skin-color="sienna" shirt-color="pink" pants-color="white"></a-person>
+	</a-scene>
+</body>
+</html>
