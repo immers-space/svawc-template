@@ -2,14 +2,13 @@
   "name": "svawc-template",
   "description": "SVAWC Component Development Template",
   "version": "1.0.0",
-  "private": true,
   "browser": "public/build/bundle.js",
   "files": [
     "public/build"
   ],
   "scripts": {
     "build": "rollup -c",
-    "prepublish": "npm run build",
+    "prepublishOnly": "npm run build",
     "dev": "rollup -c -w",
     "start": "sirv public --no-clear"
   },
