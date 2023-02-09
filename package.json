@@ -2,7 +2,7 @@
   "name": "svawc-template",
   "description": "SVAWC Component Development Template",
   "version": "1.0.1",
-  "browser": "public/build/bundle.js",
+  "browser": "./public/build/bundle.js",
   "files": [
     "public/build"
   ],
