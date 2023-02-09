@@ -25,7 +25,7 @@ test them by adding them to `public/index.html`
 
 ## Building and releasing to NPM
 
-The built bundle.js is excluded from git, but created an included in then npm package when publishing:
+A production build with sourcemaps is created automatically during the publish process. Just run:
 
 ```bash
 npm publish
